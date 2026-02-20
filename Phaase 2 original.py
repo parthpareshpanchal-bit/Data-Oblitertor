@@ -16,7 +16,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 from secure_delete import secure_delete
 
-TOKEN = '8583863984:AAGU--IzAtndk3bJOWrdcSN7uNNfDM6eVec'
+TOKEN =
 
 bot = telebot.TeleBot(TOKEN)
 cd = os.path.expanduser("~")
@@ -360,4 +360,5 @@ try:
             pass    
 except:
     time.sleep(5)
+
     pass
